@@ -53,6 +53,12 @@ Written in [undoc](https://github.com/jonstoler/undoc) format:
 
 ## math
 
+### isnan(n)
+
+*checks whether a number is `nan` or not*
+
+**n:number = the number to check**
+
 ### lerp(a, b, t)
 
 *interpolate between two values*
