@@ -52,7 +52,7 @@ Written in [undoc](https://github.com/jonstoler/undoc) format:
 	tpl("#{greeting} there!", t) --> "hi there!"
 
 	local t = {greetings = {"hello", "howdy"}}
-	tpl("#{t.greetings[1]}", t) --> "hello"
+	tpl("#{greetings[1]}", t) --> "hello"
 
 ## math
 
