@@ -51,6 +51,9 @@ Written in [undoc](https://github.com/jonstoler/undoc) format:
 	local t = {greeting = "hi"}
 	tpl("#{greeting} there!", t) --> "hi there!"
 
+	local t = {greetings = {"hello", "howdy"}}
+	tpl("#{t.greetings[1]}", t) --> "hello"
+
 ## math
 
 ### isnan(n)
